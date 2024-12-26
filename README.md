@@ -74,17 +74,6 @@ python story_processor.py get-character-info Marya Vassilyevna
 }
 ```
 
-## Project Structure
-
-```
-story-character-extractor/
-├── story_processor.py     # Main script
-├── requirements.txt       # Dependencies
-├── story_index.faiss     # Generated vector index
-├── story_store.pkl       # Generated metadata store
-└── README.md             # Documentation
-```
-
 ## Technical Components
 
 - **Sentence Transformers**: For text embeddings
